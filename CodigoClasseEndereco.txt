@@ -1,0 +1,9 @@
+	public string End_cep { get; set; }
+        public string End_logradouro { get; set; }
+        public string End_complemento { get; set; }
+        public string End_bairro { get; set; }
+        public string End_localidade { get; set; }
+        public string End_uf { get; set; }
+        public string End_unidade { get; set; }
+        public string End_ibge { get; set; }
+        public string End_gia { get; set; }
