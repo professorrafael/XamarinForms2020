@@ -22,7 +22,7 @@ namespace AppConsultaCep.Servico
             Endereco end = JsonConvert.DeserializeObject<Endereco>(Conteudo);
 
             //Verificando se o CEP digitado existe
-            if (end == null) return null;
+            if (end == null || end.cep == null) return null;
 
             //Retornar a variável end
             return end;
